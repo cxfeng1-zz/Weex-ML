@@ -7,44 +7,38 @@
 //
 
 #import "DetailViewController.h"
+#import <WeexSDK/WeexSDK.h>
 
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController
-
-- (void)configureView {
-    // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+{
+    WXSDKInstance *_instance;
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    [self renderWeex];
 }
 
-
+- (void)renderWeex
+{
+    _instance = [WXSDKInstance new];
+    _instance.viewController = self;
+    _instance.frame = self.view.frame;
+    __weak typeof(self) weakSelf = self;
+    _instance.onCreate = ^(UIView *view) {
+        [weakSelf.view addSubview:view];
+    };
+    NSString *randomURL = [NSString stringWithFormat:@"%@%@random=%d", self.url, @"?",arc4random()];
+    [_instance renderWithURL:[NSURL URLWithString:randomURL] options:nil data:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-#pragma mark - Managing the detail item
-
-- (void)setDetailItem:(NSDate *)newDetailItem {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
-        
-        // Update the view.
-        [self configureView];
-    }
-}
-
 
 @end

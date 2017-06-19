@@ -11,11 +11,6 @@
 		741AC0DF1EEEBB6E00099AF7 /* ExampleImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AC0DE1EEEBB6E00099AF7 /* ExampleImageLoader.m */; };
 		747129EF1EF2680F0086FEB6 /* WXMLFaceDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 747129EE1EF2680F0086FEB6 /* WXMLFaceDetect.m */; };
 		7483158E1EF7FD2B00F87F96 /* ImageRecognitionDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 7483158D1EF7FD1400F87F96 /* ImageRecognitionDemo.js */; };
-		748B4C9B1EEEC4B200065403 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C921EEEC4B200065403 /* MasterViewController.m */; };
-		748B4C9C1EEEC4B200065403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748B4C931EEEC4B200065403 /* Main.storyboard */; };
-		748B4C9D1EEEC4B200065403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C961EEEC4B200065403 /* AppDelegate.m */; };
-		748B4C9E1EEEC4B200065403 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C981EEEC4B200065403 /* DetailViewController.m */; };
-		748B4C9F1EEEC4B200065403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748B4C991EEEC4B200065403 /* Assets.xcassets */; };
 		748B61B61EF177BD008350AD /* WXMLDigitDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B51EF177BC008350AD /* WXMLDigitDetect.m */; };
 		748B61BA1EF177E2008350AD /* WXMLImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B81EF177E2008350AD /* WXMLImageRecognition.m */; };
 		748B61CA1EF178B9008350AD /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B11EF17796008350AD /* Inceptionv3.mlmodel */; };
@@ -26,6 +21,11 @@
 		74B412E41EEE701800875E88 /* WeexMLExamplesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B412E31EEE701800875E88 /* WeexMLExamplesUITests.m */; };
 		74C0EC831EF7FF8A001EE744 /* DigitDetectDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC821EF7FF7B001EE744 /* DigitDetectDemo.js */; };
 		74C0EC851EF8000F001EE744 /* FaceDetectDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC841EF8000A001EE744 /* FaceDetectDemo.js */; };
+		74C0EC881EF80537001EE744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C0EC861EF8052C001EE744 /* AppDelegate.m */; };
+		74C0EC8A1EF80570001EE744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC891EF8056E001EE744 /* Assets.xcassets */; };
+		74C0EC8F1EF806B9001EE744 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C0EC8D1EF80589001EE744 /* MasterViewController.m */; };
+		74C0EC901EF806BB001EE744 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C0EC8E1EF80589001EE744 /* DetailViewController.m */; };
+		74C0EC921EF807E4001EE744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC911EF806D4001EE744 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,14 +51,6 @@
 		747129ED1EF2680F0086FEB6 /* WXMLFaceDetect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMLFaceDetect.h; sourceTree = "<group>"; };
 		747129EE1EF2680F0086FEB6 /* WXMLFaceDetect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMLFaceDetect.m; sourceTree = "<group>"; };
 		7483158D1EF7FD1400F87F96 /* ImageRecognitionDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ImageRecognitionDemo.js; sourceTree = "<group>"; };
-		748B4C921EEEC4B200065403 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../../../../Test/123/123/MasterViewController.m; sourceTree = "<group>"; };
-		748B4C941EEEC4B200065403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Test/123/123/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		748B4C951EEEC4B200065403 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../../../../Test/123/123/DetailViewController.h; sourceTree = "<group>"; };
-		748B4C961EEEC4B200065403 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../../Test/123/123/AppDelegate.m; sourceTree = "<group>"; };
-		748B4C971EEEC4B200065403 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../../Test/123/123/AppDelegate.h; sourceTree = "<group>"; };
-		748B4C981EEEC4B200065403 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../../../../Test/123/123/DetailViewController.m; sourceTree = "<group>"; };
-		748B4C991EEEC4B200065403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Test/123/123/Assets.xcassets; sourceTree = "<group>"; };
-		748B4C9A1EEEC4B200065403 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../../../../Test/123/123/MasterViewController.h; sourceTree = "<group>"; };
 		748B61B11EF17796008350AD /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = WeexMLExamples/ImageRecognition/Inceptionv3.mlmodel; sourceTree = SOURCE_ROOT; };
 		748B61B21EF17796008350AD /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MNIST.mlmodel; path = WeexMLExamples/DigitDetect/MNIST.mlmodel; sourceTree = SOURCE_ROOT; };
 		748B61B41EF177BC008350AD /* WXMLDigitDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMLDigitDetect.h; sourceTree = "<group>"; };
@@ -79,6 +71,14 @@
 		74B412E51EEE701800875E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C0EC821EF7FF7B001EE744 /* DigitDetectDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DigitDetectDemo.js; sourceTree = "<group>"; };
 		74C0EC841EF8000A001EE744 /* FaceDetectDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FaceDetectDemo.js; sourceTree = "<group>"; };
+		74C0EC861EF8052C001EE744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74C0EC871EF8052C001EE744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74C0EC891EF8056E001EE744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C0EC8B1EF80589001EE744 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		74C0EC8C1EF80589001EE744 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		74C0EC8D1EF80589001EE744 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		74C0EC8E1EF80589001EE744 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		74C0EC911EF806D4001EE744 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B36156CCE257DF81BCB9E347 /* Pods-WeexMLExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexMLExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples.release.xcconfig"; sourceTree = "<group>"; };
 		DEA93BBB3473C53C13B2887C /* libPods-WeexMLExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexMLExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F567FCD81EB7DB4B7D79FD5E /* Pods-WeexMLExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexMLExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,20 +185,20 @@
 		74B412BE1EEE701800875E88 /* WeexMLExamples */ = {
 			isa = PBXGroup;
 			children = (
+				74C0EC8C1EF80589001EE744 /* DetailViewController.h */,
+				74C0EC8E1EF80589001EE744 /* DetailViewController.m */,
+				74C0EC8B1EF80589001EE744 /* MasterViewController.h */,
+				74C0EC8D1EF80589001EE744 /* MasterViewController.m */,
 				747129EC1EF267EB0086FEB6 /* FaceDetect */,
 				748B61C71EF178A1008350AD /* SentimentAnalysis */,
 				748B61B71EF177D7008350AD /* ImageRecognition */,
 				748B61B31EF177A7008350AD /* DigitDetect */,
 				741AC0DD1EEEBB6E00099AF7 /* ExampleImageLoader.h */,
 				741AC0DE1EEEBB6E00099AF7 /* ExampleImageLoader.m */,
-				748B4C971EEEC4B200065403 /* AppDelegate.h */,
-				748B4C961EEEC4B200065403 /* AppDelegate.m */,
-				748B4C9A1EEEC4B200065403 /* MasterViewController.h */,
-				748B4C921EEEC4B200065403 /* MasterViewController.m */,
-				748B4C951EEEC4B200065403 /* DetailViewController.h */,
-				748B4C981EEEC4B200065403 /* DetailViewController.m */,
-				748B4C931EEEC4B200065403 /* Main.storyboard */,
-				748B4C991EEEC4B200065403 /* Assets.xcassets */,
+				74C0EC871EF8052C001EE744 /* AppDelegate.h */,
+				74C0EC861EF8052C001EE744 /* AppDelegate.m */,
+				74C0EC891EF8056E001EE744 /* Assets.xcassets */,
+				74C0EC911EF806D4001EE744 /* Main.storyboard */,
 				74B412CA1EEE701800875E88 /* LaunchScreen.storyboard */,
 				74B412CD1EEE701800875E88 /* Info.plist */,
 				74B412CE1EEE701800875E88 /* main.m */,
@@ -340,9 +340,9 @@
 			files = (
 				74B412CC1EEE701800875E88 /* LaunchScreen.storyboard in Resources */,
 				74C0EC851EF8000F001EE744 /* FaceDetectDemo.js in Resources */,
-				748B4C9C1EEEC4B200065403 /* Main.storyboard in Resources */,
 				74C0EC831EF7FF8A001EE744 /* DigitDetectDemo.js in Resources */,
-				748B4C9F1EEEC4B200065403 /* Assets.xcassets in Resources */,
+				74C0EC921EF807E4001EE744 /* Main.storyboard in Resources */,
+				74C0EC8A1EF80570001EE744 /* Assets.xcassets in Resources */,
 				7483158E1EF7FD2B00F87F96 /* ImageRecognitionDemo.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,14 +418,14 @@
 			files = (
 				748B61CA1EF178B9008350AD /* Inceptionv3.mlmodel in Sources */,
 				741AC0DF1EEEBB6E00099AF7 /* ExampleImageLoader.m in Sources */,
-				748B4C9E1EEEC4B200065403 /* DetailViewController.m in Sources */,
 				747129EF1EF2680F0086FEB6 /* WXMLFaceDetect.m in Sources */,
+				74C0EC881EF80537001EE744 /* AppDelegate.m in Sources */,
 				74B412CF1EEE701800875E88 /* main.m in Sources */,
-				748B4C9B1EEEC4B200065403 /* MasterViewController.m in Sources */,
+				74C0EC901EF806BB001EE744 /* DetailViewController.m in Sources */,
 				748B61BA1EF177E2008350AD /* WXMLImageRecognition.m in Sources */,
 				748B61B61EF177BD008350AD /* WXMLDigitDetect.m in Sources */,
+				74C0EC8F1EF806B9001EE744 /* MasterViewController.m in Sources */,
 				748B61CB1EF178BD008350AD /* MNIST.mlmodel in Sources */,
-				748B4C9D1EEEC4B200065403 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,14 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		748B4C931EEEC4B200065403 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				748B4C941EEEC4B200065403 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74B412CA1EEE701800875E88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -10,8 +10,7 @@
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, strong) NSString *url;
 
 @end
 
