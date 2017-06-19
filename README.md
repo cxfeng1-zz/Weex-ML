@@ -1,5 +1,5 @@
 # Weex-ML
-Machine learning modules for Weex based on CoreML and Vision framework.
+Weex modules for machine learning based on CoreML and Vision framework in iOS.
 
 # Requirements
 * Xcode 9+
