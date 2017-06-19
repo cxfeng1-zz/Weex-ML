@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D708C90AB70EC08848733B3 /* libPods-WeexMLExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA93BBB3473C53C13B2887C /* libPods-WeexMLExamples.a */; };
+		741AC0DF1EEEBB6E00099AF7 /* ExampleImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 741AC0DE1EEEBB6E00099AF7 /* ExampleImageLoader.m */; };
+		747129EF1EF2680F0086FEB6 /* WXMLFaceDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 747129EE1EF2680F0086FEB6 /* WXMLFaceDetect.m */; };
+		7483158E1EF7FD2B00F87F96 /* ImageRecognitionDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 7483158D1EF7FD1400F87F96 /* ImageRecognitionDemo.js */; };
+		748B4C9B1EEEC4B200065403 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C921EEEC4B200065403 /* MasterViewController.m */; };
+		748B4C9C1EEEC4B200065403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748B4C931EEEC4B200065403 /* Main.storyboard */; };
+		748B4C9D1EEEC4B200065403 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C961EEEC4B200065403 /* AppDelegate.m */; };
+		748B4C9E1EEEC4B200065403 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B4C981EEEC4B200065403 /* DetailViewController.m */; };
+		748B4C9F1EEEC4B200065403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748B4C991EEEC4B200065403 /* Assets.xcassets */; };
+		748B61B61EF177BD008350AD /* WXMLDigitDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B51EF177BC008350AD /* WXMLDigitDetect.m */; };
+		748B61BA1EF177E2008350AD /* WXMLImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B81EF177E2008350AD /* WXMLImageRecognition.m */; };
+		748B61CA1EF178B9008350AD /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B11EF17796008350AD /* Inceptionv3.mlmodel */; };
+		748B61CB1EF178BD008350AD /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 748B61B21EF17796008350AD /* MNIST.mlmodel */; };
+		74B412CC1EEE701800875E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B412CA1EEE701800875E88 /* LaunchScreen.storyboard */; };
+		74B412CF1EEE701800875E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B412CE1EEE701800875E88 /* main.m */; };
+		74B412D91EEE701800875E88 /* WeexMLExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B412D81EEE701800875E88 /* WeexMLExamplesTests.m */; };
+		74B412E41EEE701800875E88 /* WeexMLExamplesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B412E31EEE701800875E88 /* WeexMLExamplesUITests.m */; };
+		74C0EC831EF7FF8A001EE744 /* DigitDetectDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC821EF7FF7B001EE744 /* DigitDetectDemo.js */; };
+		74C0EC851EF8000F001EE744 /* FaceDetectDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74C0EC841EF8000A001EE744 /* FaceDetectDemo.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B412D51EEE701800875E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B412B41EEE701800875E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B412BB1EEE701800875E88;
+			remoteInfo = WeexMLExamples;
+		};
+		74B412E01EEE701800875E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B412B41EEE701800875E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B412BB1EEE701800875E88;
+			remoteInfo = WeexMLExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741AC0DD1EEEBB6E00099AF7 /* ExampleImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleImageLoader.h; sourceTree = "<group>"; };
+		741AC0DE1EEEBB6E00099AF7 /* ExampleImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleImageLoader.m; sourceTree = "<group>"; };
+		747129ED1EF2680F0086FEB6 /* WXMLFaceDetect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMLFaceDetect.h; sourceTree = "<group>"; };
+		747129EE1EF2680F0086FEB6 /* WXMLFaceDetect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMLFaceDetect.m; sourceTree = "<group>"; };
+		7483158D1EF7FD1400F87F96 /* ImageRecognitionDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ImageRecognitionDemo.js; sourceTree = "<group>"; };
+		748B4C921EEEC4B200065403 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../../../../Test/123/123/MasterViewController.m; sourceTree = "<group>"; };
+		748B4C941EEEC4B200065403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Test/123/123/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		748B4C951EEEC4B200065403 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../../../../Test/123/123/DetailViewController.h; sourceTree = "<group>"; };
+		748B4C961EEEC4B200065403 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../../Test/123/123/AppDelegate.m; sourceTree = "<group>"; };
+		748B4C971EEEC4B200065403 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../../Test/123/123/AppDelegate.h; sourceTree = "<group>"; };
+		748B4C981EEEC4B200065403 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../../../../Test/123/123/DetailViewController.m; sourceTree = "<group>"; };
+		748B4C991EEEC4B200065403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Test/123/123/Assets.xcassets; sourceTree = "<group>"; };
+		748B4C9A1EEEC4B200065403 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../../../../Test/123/123/MasterViewController.h; sourceTree = "<group>"; };
+		748B61B11EF17796008350AD /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = WeexMLExamples/ImageRecognition/Inceptionv3.mlmodel; sourceTree = SOURCE_ROOT; };
+		748B61B21EF17796008350AD /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MNIST.mlmodel; path = WeexMLExamples/DigitDetect/MNIST.mlmodel; sourceTree = SOURCE_ROOT; };
+		748B61B41EF177BC008350AD /* WXMLDigitDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMLDigitDetect.h; sourceTree = "<group>"; };
+		748B61B51EF177BC008350AD /* WXMLDigitDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMLDigitDetect.m; sourceTree = "<group>"; };
+		748B61B81EF177E2008350AD /* WXMLImageRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMLImageRecognition.m; sourceTree = "<group>"; };
+		748B61B91EF177E2008350AD /* WXMLImageRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMLImageRecognition.h; sourceTree = "<group>"; };
+		748B61C81EF178A1008350AD /* WXMLSentimentAnalysis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMLSentimentAnalysis.m; sourceTree = "<group>"; };
+		748B61C91EF178A1008350AD /* WXMLSentimentAnalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMLSentimentAnalysis.h; sourceTree = "<group>"; };
+		74B412BC1EEE701800875E88 /* WeexMLExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexMLExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B412CB1EEE701800875E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B412CD1EEE701800875E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B412CE1EEE701800875E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B412D41EEE701800875E88 /* WeexMLExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexMLExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B412D81EEE701800875E88 /* WeexMLExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexMLExamplesTests.m; sourceTree = "<group>"; };
+		74B412DA1EEE701800875E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B412DF1EEE701800875E88 /* WeexMLExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexMLExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B412E31EEE701800875E88 /* WeexMLExamplesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexMLExamplesUITests.m; sourceTree = "<group>"; };
+		74B412E51EEE701800875E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C0EC821EF7FF7B001EE744 /* DigitDetectDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DigitDetectDemo.js; sourceTree = "<group>"; };
+		74C0EC841EF8000A001EE744 /* FaceDetectDemo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FaceDetectDemo.js; sourceTree = "<group>"; };
+		B36156CCE257DF81BCB9E347 /* Pods-WeexMLExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexMLExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples.release.xcconfig"; sourceTree = "<group>"; };
+		DEA93BBB3473C53C13B2887C /* libPods-WeexMLExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexMLExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F567FCD81EB7DB4B7D79FD5E /* Pods-WeexMLExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexMLExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B412B91EEE701800875E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D708C90AB70EC08848733B3 /* libPods-WeexMLExamples.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412D11EEE701800875E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412DC1EEE701800875E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F537B110929F6FC647958FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F567FCD81EB7DB4B7D79FD5E /* Pods-WeexMLExamples.debug.xcconfig */,
+				B36156CCE257DF81BCB9E347 /* Pods-WeexMLExamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		747129EC1EF267EB0086FEB6 /* FaceDetect */ = {
+			isa = PBXGroup;
+			children = (
+				74C0EC841EF8000A001EE744 /* FaceDetectDemo.js */,
+				747129ED1EF2680F0086FEB6 /* WXMLFaceDetect.h */,
+				747129EE1EF2680F0086FEB6 /* WXMLFaceDetect.m */,
+			);
+			path = FaceDetect;
+			sourceTree = "<group>";
+		};
+		748B61B31EF177A7008350AD /* DigitDetect */ = {
+			isa = PBXGroup;
+			children = (
+				748B61B21EF17796008350AD /* MNIST.mlmodel */,
+				74C0EC821EF7FF7B001EE744 /* DigitDetectDemo.js */,
+				748B61B41EF177BC008350AD /* WXMLDigitDetect.h */,
+				748B61B51EF177BC008350AD /* WXMLDigitDetect.m */,
+			);
+			path = DigitDetect;
+			sourceTree = "<group>";
+		};
+		748B61B71EF177D7008350AD /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				748B61B11EF17796008350AD /* Inceptionv3.mlmodel */,
+				7483158D1EF7FD1400F87F96 /* ImageRecognitionDemo.js */,
+				748B61B91EF177E2008350AD /* WXMLImageRecognition.h */,
+				748B61B81EF177E2008350AD /* WXMLImageRecognition.m */,
+			);
+			path = ImageRecognition;
+			sourceTree = "<group>";
+		};
+		748B61C71EF178A1008350AD /* SentimentAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				748B61C81EF178A1008350AD /* WXMLSentimentAnalysis.m */,
+				748B61C91EF178A1008350AD /* WXMLSentimentAnalysis.h */,
+			);
+			path = SentimentAnalysis;
+			sourceTree = "<group>";
+		};
+		74B412B31EEE701800875E88 = {
+			isa = PBXGroup;
+			children = (
+				74B412BE1EEE701800875E88 /* WeexMLExamples */,
+				74B412D71EEE701800875E88 /* WeexMLExamplesTests */,
+				74B412E21EEE701800875E88 /* WeexMLExamplesUITests */,
+				74B412BD1EEE701800875E88 /* Products */,
+				1F537B110929F6FC647958FA /* Pods */,
+				9A4738DE237A146CE5FEA890 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74B412BD1EEE701800875E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B412BC1EEE701800875E88 /* WeexMLExamples.app */,
+				74B412D41EEE701800875E88 /* WeexMLExamplesTests.xctest */,
+				74B412DF1EEE701800875E88 /* WeexMLExamplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B412BE1EEE701800875E88 /* WeexMLExamples */ = {
+			isa = PBXGroup;
+			children = (
+				747129EC1EF267EB0086FEB6 /* FaceDetect */,
+				748B61C71EF178A1008350AD /* SentimentAnalysis */,
+				748B61B71EF177D7008350AD /* ImageRecognition */,
+				748B61B31EF177A7008350AD /* DigitDetect */,
+				741AC0DD1EEEBB6E00099AF7 /* ExampleImageLoader.h */,
+				741AC0DE1EEEBB6E00099AF7 /* ExampleImageLoader.m */,
+				748B4C971EEEC4B200065403 /* AppDelegate.h */,
+				748B4C961EEEC4B200065403 /* AppDelegate.m */,
+				748B4C9A1EEEC4B200065403 /* MasterViewController.h */,
+				748B4C921EEEC4B200065403 /* MasterViewController.m */,
+				748B4C951EEEC4B200065403 /* DetailViewController.h */,
+				748B4C981EEEC4B200065403 /* DetailViewController.m */,
+				748B4C931EEEC4B200065403 /* Main.storyboard */,
+				748B4C991EEEC4B200065403 /* Assets.xcassets */,
+				74B412CA1EEE701800875E88 /* LaunchScreen.storyboard */,
+				74B412CD1EEE701800875E88 /* Info.plist */,
+				74B412CE1EEE701800875E88 /* main.m */,
+			);
+			path = WeexMLExamples;
+			sourceTree = "<group>";
+		};
+		74B412D71EEE701800875E88 /* WeexMLExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B412D81EEE701800875E88 /* WeexMLExamplesTests.m */,
+				74B412DA1EEE701800875E88 /* Info.plist */,
+			);
+			path = WeexMLExamplesTests;
+			sourceTree = "<group>";
+		};
+		74B412E21EEE701800875E88 /* WeexMLExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B412E31EEE701800875E88 /* WeexMLExamplesUITests.m */,
+				74B412E51EEE701800875E88 /* Info.plist */,
+			);
+			path = WeexMLExamplesUITests;
+			sourceTree = "<group>";
+		};
+		9A4738DE237A146CE5FEA890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA93BBB3473C53C13B2887C /* libPods-WeexMLExamples.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B412BB1EEE701800875E88 /* WeexMLExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B412E81EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamples" */;
+			buildPhases = (
+				0BF5568505FA93E393182B3E /* [CP] Check Pods Manifest.lock */,
+				74B412B81EEE701800875E88 /* Sources */,
+				74B412B91EEE701800875E88 /* Frameworks */,
+				74B412BA1EEE701800875E88 /* Resources */,
+				60EC2CA64E33E550DF84D9A1 /* [CP] Embed Pods Frameworks */,
+				0306212D12B6D16B75175E6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeexMLExamples;
+			productName = WeexMLExamples;
+			productReference = 74B412BC1EEE701800875E88 /* WeexMLExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B412D31EEE701800875E88 /* WeexMLExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B412EB1EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamplesTests" */;
+			buildPhases = (
+				74B412D01EEE701800875E88 /* Sources */,
+				74B412D11EEE701800875E88 /* Frameworks */,
+				74B412D21EEE701800875E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B412D61EEE701800875E88 /* PBXTargetDependency */,
+			);
+			name = WeexMLExamplesTests;
+			productName = WeexMLExamplesTests;
+			productReference = 74B412D41EEE701800875E88 /* WeexMLExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B412DE1EEE701800875E88 /* WeexMLExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B412EE1EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamplesUITests" */;
+			buildPhases = (
+				74B412DB1EEE701800875E88 /* Sources */,
+				74B412DC1EEE701800875E88 /* Frameworks */,
+				74B412DD1EEE701800875E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B412E11EEE701800875E88 /* PBXTargetDependency */,
+			);
+			name = WeexMLExamplesUITests;
+			productName = WeexMLExamplesUITests;
+			productReference = 74B412DF1EEE701800875E88 /* WeexMLExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B412B41EEE701800875E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yinfeng;
+				TargetAttributes = {
+					74B412BB1EEE701800875E88 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					74B412D31EEE701800875E88 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 74B412BB1EEE701800875E88;
+					};
+					74B412DE1EEE701800875E88 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 74B412BB1EEE701800875E88;
+					};
+				};
+			};
+			buildConfigurationList = 74B412B71EEE701800875E88 /* Build configuration list for PBXProject "WeexMLExamples" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B412B31EEE701800875E88;
+			productRefGroup = 74B412BD1EEE701800875E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B412BB1EEE701800875E88 /* WeexMLExamples */,
+				74B412D31EEE701800875E88 /* WeexMLExamplesTests */,
+				74B412DE1EEE701800875E88 /* WeexMLExamplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B412BA1EEE701800875E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B412CC1EEE701800875E88 /* LaunchScreen.storyboard in Resources */,
+				74C0EC851EF8000F001EE744 /* FaceDetectDemo.js in Resources */,
+				748B4C9C1EEEC4B200065403 /* Main.storyboard in Resources */,
+				74C0EC831EF7FF8A001EE744 /* DigitDetectDemo.js in Resources */,
+				748B4C9F1EEEC4B200065403 /* Assets.xcassets in Resources */,
+				7483158E1EF7FD2B00F87F96 /* ImageRecognitionDemo.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412D21EEE701800875E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412DD1EEE701800875E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0306212D12B6D16B75175E6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BF5568505FA93E393182B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60EC2CA64E33E550DF84D9A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexMLExamples/Pods-WeexMLExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B412B81EEE701800875E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748B61CA1EF178B9008350AD /* Inceptionv3.mlmodel in Sources */,
+				741AC0DF1EEEBB6E00099AF7 /* ExampleImageLoader.m in Sources */,
+				748B4C9E1EEEC4B200065403 /* DetailViewController.m in Sources */,
+				747129EF1EF2680F0086FEB6 /* WXMLFaceDetect.m in Sources */,
+				74B412CF1EEE701800875E88 /* main.m in Sources */,
+				748B4C9B1EEEC4B200065403 /* MasterViewController.m in Sources */,
+				748B61BA1EF177E2008350AD /* WXMLImageRecognition.m in Sources */,
+				748B61B61EF177BD008350AD /* WXMLDigitDetect.m in Sources */,
+				748B61CB1EF178BD008350AD /* MNIST.mlmodel in Sources */,
+				748B4C9D1EEEC4B200065403 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412D01EEE701800875E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B412D91EEE701800875E88 /* WeexMLExamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B412DB1EEE701800875E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B412E41EEE701800875E88 /* WeexMLExamplesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B412D61EEE701800875E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B412BB1EEE701800875E88 /* WeexMLExamples */;
+			targetProxy = 74B412D51EEE701800875E88 /* PBXContainerItemProxy */;
+		};
+		74B412E11EEE701800875E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B412BB1EEE701800875E88 /* WeexMLExamples */;
+			targetProxy = 74B412E01EEE701800875E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		748B4C931EEEC4B200065403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748B4C941EEEC4B200065403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B412CA1EEE701800875E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B412CB1EEE701800875E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B412E61EEE701800875E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74B412E71EEE701800875E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B412E91EEE701800875E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F567FCD81EB7DB4B7D79FD5E /* Pods-WeexMLExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7EDFK7C8C;
+				INFOPLIST_FILE = WeexMLExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B412EA1EEE701800875E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36156CCE257DF81BCB9E347 /* Pods-WeexMLExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7EDFK7C8C;
+				INFOPLIST_FILE = WeexMLExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74B412EC1EEE701800875E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeexMLExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexMLExamples.app/WeexMLExamples";
+			};
+			name = Debug;
+		};
+		74B412ED1EEE701800875E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeexMLExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexMLExamples.app/WeexMLExamples";
+			};
+			name = Release;
+		};
+		74B412EF1EEE701800875E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeexMLExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeexMLExamples;
+			};
+			name = Debug;
+		};
+		74B412F01EEE701800875E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeexMLExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinfeng.WeexMLExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeexMLExamples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B412B71EEE701800875E88 /* Build configuration list for PBXProject "WeexMLExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B412E61EEE701800875E88 /* Debug */,
+				74B412E71EEE701800875E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B412E81EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B412E91EEE701800875E88 /* Debug */,
+				74B412EA1EEE701800875E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B412EB1EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B412EC1EEE701800875E88 /* Debug */,
+				74B412ED1EEE701800875E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B412EE1EEE701800875E88 /* Build configuration list for PBXNativeTarget "WeexMLExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B412EF1EEE701800875E88 /* Debug */,
+				74B412F01EEE701800875E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B412B41EEE701800875E88 /* Project object */;
+}
