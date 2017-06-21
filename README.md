@@ -23,6 +23,8 @@ imageRecognition.predictWithImage(this.$refs.image.ref, (results)=>{
 })
 ```
 
+![](https://gw.alicdn.com/tfs/TB1AmqgRVXXXXcmXFXXXXXXXXXX-240-427.gif)
+
 ## digitDetect 
 
 Classifies handwritten digit.
@@ -33,6 +35,8 @@ digitRecognition.predictWithCanvas(this.$refs.canvas.ref, (results)= {
   this.result = results[0];
 })
 ```
+
+![](https://gw.alicdn.com/tfs/TB1nZ8_RVXXXXczXVXXXXXXXXXX-240-427.gif)
 
 ## faceDetect
 
@@ -47,3 +51,4 @@ faceDetect.detectLandmarks(this.$refs.image.ref, (results)=>{
 })
 ```
 
+![](https://gw.alicdn.com/tfs/TB1lN0_RVXXXXa_XVXXXXXXXXXX-240-427.gif)
